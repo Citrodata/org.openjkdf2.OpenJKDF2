@@ -26,3 +26,5 @@ modules:
       - type: git
         url: https://github.com/shinyquagsire23/OpenJKDF2
         commit: b460dd3e3fd44e534841645b3cd76daa4b9b9d34
+      - type: patch
+        path: gitmodules.patch
