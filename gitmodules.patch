@@ -1,0 +1,32 @@
+diff --git a/.gitmodules b/.gitmodules
+index 9d0c21b..7aaad01 100644
+--- a/.gitmodules
++++ b/.gitmodules
+@@ -1,12 +1,12 @@
+ [submodule "libpng"]
+ 	path = lib/libpng
+ 	url = https://github.com/glennrp/libpng.git
+-	branch = v1.6.39
++	branch = v1.6.55
+ 	shallow = true
+ [submodule "freeglut"]
+ 	path = lib/freeglut
+ 	url = https://github.com/FreeGLUTProject/freeglut.git
+-	branch = v3.4.0
++	branch = v3.8.0
+ 	shallow = true
+ [submodule "glew"]
+ 	path = lib/glew
+@@ -41,10 +41,10 @@
+ [submodule "SDL"]
+ 	path = lib/SDL
+ 	url = https://github.com/libsdl-org/SDL.git
+-	branch = release-2.26.5
++	branch = release-2.32.10
+ 	shallow = true
+ [submodule "SDL_mixer"]
+ 	path = lib/SDL_mixer
+ 	url = https://github.com/libsdl-org/SDL_mixer.git
+-	branch = release-2.6.3
++	branch = release-2.8.1
+ 	shallow = true
